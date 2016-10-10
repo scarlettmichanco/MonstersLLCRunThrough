@@ -119,6 +119,10 @@
     <Compile Include="Assets\TheLabRenderer\Editor\ValveAutoUpdateSettings.cs" />
     <Compile Include="Assets\TheLabRenderer\Editor\ValveMenuTools.cs" />
     <Compile Include="Assets\TheLabRenderer\Editor\ValveShaderGUI.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_AdaptiveQualityEditor.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_EditorUtilities.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_InteractableObjectEditor.cs" />
+    <Compile Include="Assets\VRTK\Scripts\Controls\2D\RadialMenu\Editor\RadialMenuInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
@@ -137,6 +141,12 @@
     <None Include="Assets\TheLabRenderer\Shaders\vr_skybox.shader" />
     <None Include="Assets\TheLabRenderer\Shaders\vr_standard.shader" />
     <None Include="Assets\TheLabRenderer\Shaders\vr_utils.cginc" />
+    <None Include="Assets\VRTK\Scripts\Shaders\AdaptiveQualityDebugVisualization.shader" />
+    <None Include="Assets\VRTK\Scripts\Shaders\TransparentFresnelBehind.shader" />
+    <None Include="Assets\VRTK\Scripts\Shaders\UIOverlay.shader" />
+    <None Include="Assets\VRTK\Scripts\Shaders\Unlit_TransparentColor.shader" />
+    <None Include="Assets\VRTK\Scripts\Shaders\VRTK_OutlineBasic.shader" />
+    <None Include="Assets\VRTK\Version.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
